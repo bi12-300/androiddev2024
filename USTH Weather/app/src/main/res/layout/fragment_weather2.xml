@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
+    tools:context=".fragment.weather_fragment.WeatherFragmentHaNoi">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/text_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/tokyo"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text_size_20"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/text_forcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_city"
+        android:layout_alignBottom="@+id/text_city"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="-16dp"
+        android:layout_toStartOf="@+id/text_city"
+        android:text="@string/storm"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text_size_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_weather_size"
+        android:layout_height="@dimen/image_weather_size"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/image_weather"
+        android:src="@drawable/tornado"
+        app:tint="#006064" />
+
+</RelativeLayout>

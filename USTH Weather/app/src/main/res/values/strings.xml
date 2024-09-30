@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon_weather">Icon Weather</string>
+    <string name="partly_cloudy">Có ít mây\n24C - 31C</string>
+    <string name="cloudy">12C\nNhiều mây</string>
+    <string name="storm">Có lốc xoáy\n20C - 24C</string>
+    <string name="snowy">Có tuyết\n-4C - 1C</string>
+    <string name="rain">Có mưa\n26C - 27C</string>
+    <string name="moon">Trăng sáng\n26C - 29C</string>
+
+    <!-- Days String -->
+    <string name="tue">Thứ ba</string>
+    <string name="wed">Thứ tư</string>
+    <string name="thu">Thứ năm</string>
+    <string name="sat">Thứ bảy</string>
+    <string name="fri">Thứ sáu</string>
+    <string name="sun">Chủ nhật</string>
+    <string name="mon">Thứ hai</string>
+    <string name="hanoi">Hà Nội</string>
+    <string name="image_weather">Image weather</string>
+    <string name="paris">Paris</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="refresh">Refresh</string>
+    <string name="more">More</string>
+
+</resources>
